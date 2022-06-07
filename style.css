@@ -34,11 +34,12 @@ body{
   color: black;
   font-size: 1.335rem;
   text-transform: uppercase;
-  
+  border: 2px solid transparent;
+  transition: 0.3s;
 }
 
 .nav a:hover {
-  border: 1px solid #900
+  border: 2px solid #ee2211
 }
 
 .conteudo a {
@@ -86,6 +87,10 @@ h1 {
   
 }
 
+.introducao a {
+  transition: 0.3s;
+}
+
 .introducao a:hover {
   background-color: #900;
 }
@@ -115,6 +120,7 @@ h1 {
   grid-template-columns: 40px 1fr;
   gap: 10px 20px;
   align-items: center;
+  transition: 0.1s;
 }
 
 .vantagens-item:hover {
