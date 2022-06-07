@@ -172,6 +172,11 @@ h1 {
   .introducao h1::after {
     display: none;
   }
+
+  .introducao {
+    text-align: left;
+    justify-items: start;
+  }
   
 }
 
